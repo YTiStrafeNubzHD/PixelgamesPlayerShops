@@ -1,0 +1,20 @@
+Changelog PixelgamesPlayerShops:
+
+v0.1-release: Release
+v1.0-alpha: Alles übersetzt, Critical zu Error verändert, scheinbar ein nicht fertiggestelltes Plugin! (INSTABIL?)
+v1.1#: Fehlerkorrektur: disallowed-worlds statt disallow-worlds in Config
+v1.2#: Fehlerbehebung mit Umlauten in language.properties
+v1.3#: onLoad hinzugefügt, onEnable und onDisable
+v1.4#: TODO hinzugefügt, umbenannte Permissions werden jetzt verwendet
+v1.5#: Fehler: ItemCloud reagiert nicht (Owner hat keinen Account), also Umbenennung, use-Statement
+v1.6#: TODO hinzugefügt, Verbindung mit ItemCloud herzustellen; Versuch durch Umbenennung, use entfernt
+v1.7#: TODOs, Messages optimiert
+v1.8#: Message verbessert
+v1.9#: Message-Fehler verbessert -.-
+v1.10#: Funktion Ausrichtung entfernt
+v1.10.1#: use ItemDisplayer entfernt
+v1.10.2#: Zeile 419 entfernt wegen new ItemDisplayer ("class not found...")
+v1.10.3#: Zeile 418 entfernt wegen "undefined variable "dis""...
+v1.10.4#: Abschnitt entfernt wegen Fehler und nicht mehr benutzten Variablen
+v1.11#: Allgemeines API-Update auf 3.0.0-ALPHA12
+v

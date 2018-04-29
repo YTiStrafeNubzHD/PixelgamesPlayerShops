@@ -1,0 +1,6 @@
+# Kosten zur Erstellung eines PlayerShops
+shop-tax: 100
+
+# Welten, in der keine PlayerShops erstellt werden dürfen
+# (Weltnamen müssen in Tabellenform gelistet werden)
+disallowed-worlds: []

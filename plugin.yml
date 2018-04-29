@@ -1,0 +1,31 @@
+name: PixelgamesPlayerShops
+version: 1.11#
+author: onebone, iStrafeNubzHDyt
+main: Authors\PixelgamesPlayerShops\PixelgamesPlayerShops
+api: [3.0.0-ALPHA12]
+
+commands:
+ pshop:
+  description: Hauptbefehl von PixelgamesPlayerShops zur Verwaltung eigener öffentlicher Shops
+  usage: /pshop <create|remove|list> [ItemID[:Meta]] [Menge] [Verkaufspreis]
+  permission: pgplayershops.shop.create
+
+permissions:
+ pgplayershops.*:
+  description: Das Recht auf alle Funktionen in PixelgamesPlayerShops
+
+  children:
+   pgplayershops.shop.*:
+    description: Das Recht auf alle Funktionen in PixelgamesPlayerShops bezüglich Shops
+
+    children:
+     pgplayershops.shop.create:
+      description: Das Recht, einen PlayerShop zu erstellen
+      default: true
+
+     pgplayershops.shop.buy:
+      description: Das Recht, von einem PlayerShop zu kaufen
+      default: true
+
+     pgplayershops.shop.destroy.others:
+      description: Das Recht, den PlayerShop eines anderen Spielers zu entfernen
