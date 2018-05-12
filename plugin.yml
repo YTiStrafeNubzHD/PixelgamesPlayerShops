@@ -1,5 +1,5 @@
 name: PixelgamesPlayerShops
-version: 1.11#
+version: 1.11-DISCONTINUED
 author: onebone, iStrafeNubzHDyt
 main: Authors\PixelgamesPlayerShops\PixelgamesPlayerShops
 api: [3.0.0-ALPHA12]
@@ -21,11 +21,11 @@ permissions:
     children:
      pgplayershops.shop.create:
       description: Das Recht, einen PlayerShop zu erstellen
-      default: true
+      default: false
 
      pgplayershops.shop.buy:
       description: Das Recht, von einem PlayerShop zu kaufen
-      default: true
+      default: false
 
      pgplayershops.shop.destroy.others:
       description: Das Recht, den PlayerShop eines anderen Spielers zu entfernen
